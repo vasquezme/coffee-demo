@@ -1,0 +1,47 @@
+ID,NAME,LATITUDE,LONGITUDE,REVENUE,CUSTOMERS,DONUTS_SOLD,CHAIN,CHAIN_NAME,DISTANCE(M),DRIVE_TIME(MINS),RATING,PIN
+1,Basic Cafe,48.4253,-123.357,83129,636,349,0,OTHER,938.3,3,1,/coffeepin.svg
+8,Bean Around The World,48.4292,-123.368,96352,637,355,0,OTHER,422.1,2,3,/coffeepin.svg
+37,Bean Bandits Coffee,48.4236,-123.365,99663,622,356,0,OTHER,409.3,2,2,/coffeepin.svg
+19,Blenz Coffee,48.424,-123.365,82296,646,357,0,OTHER,387.3,2,3,/coffeepin.svg
+28,Blue Fox Cafe,48.4236,-123.359,98319,643,354,0,OTHER,819.6,2,2,/coffeepin.svg
+38,Board with Friends Cafe,48.427,-123.364,83664,647,353,0,OTHER,448.8,2,2,/coffeepin.svg
+26,Capital City Café,48.4208,-123.366,99936,650,357,0,OTHER,596.0,2,4,/coffeepin.svg
+13,Cascadia,48.4306,-123.367,85884,656,359,0,OTHER,593.2,3,4,/coffeepin.svg
+6,Cat's Coffee & Cake,48.4258,-123.365,88453,619,360,0,OTHER,346.7,2,3,/coffeepin.svg
+5,Colonial Cafe,48.4154,-123.369,99258,659,341,0,OTHER,1132.0,5,2,/coffeepin.svg
+40,Courtyard Café,48.4209,-123.373,87272,673,340,0,OTHER,574.8,5,1,/coffeepin.svg
+41,Deer & Dough Bakery Cafe,48.4295,-123.364,88412,679,359,0,OTHER,605.9,3,5,/coffeepin.svg
+30,Empire Donuts,48.4254,-123.364,83905,669,344,0,OTHER,420.2,2,5,/coffeepin.svg
+39,Flourish BeauTea,48.4246,-123.366,96571,659,343,0,OTHER,292.4,2,5,/coffeepin.svg
+15,Good Earth,48.425,-123.367,84296,626,348,0,OTHER,207.6,2,5,/coffeepin.svg
+35,Hey Happy,48.4278,-123.369,93104,691,341,0,OTHER,252.9,2,1,/coffeepin.svg
+46,Interactivity Board Game Cafe,48.426,-123.364,88211,613,353,0,OTHER,422.4,2,2,/coffeepin.svg
+21,Just Matcha,48.4286,-123.368,92219,612,350,0,OTHER,358.9,2,1,/coffeepin.svg
+18,Milano,48.4234,-123.368,81608,690,349,0,OTHER,271.2,2,1,/coffeepin.svg
+10,Murchie's,48.4253,-123.368,93377,629,353,0,OTHER,127.3,2,5,/coffeepin.svg
+27,Nourish Kitchen & Cafe,48.4217,-123.377,81783,645,344,0,OTHER,692.4,5,3,/coffeepin.svg
+42,Picnic Too,48.4235,-123.356,95064,699,356,0,OTHER,1037.7,3,4,/coffeepin.svg
+22,QV Cafe,48.4295,-123.367,95688,641,349,0,OTHER,479.6,2,1,/coffeepin.svg
+2,Serious Coffee,48.4266,-123.366,85070,605,357,0,OTHER,294.9,2,3,/coffeepin.svg
+24,Shanzee's Biscuit Café,48.4284,-123.368,84369,685,357,0,OTHER,338.1,2,2,/coffeepin.svg
+32,Sounds Like Coffee,48.4239,-123.367,81704,648,351,0,OTHER,271.3,2,4,/coffeepin.svg
+7,Soupa Cafe,48.4255,-123.364,83646,639,341,0,OTHER,419.8,2,4,/coffeepin.svg
+25,Tea at the Empress,48.4216,-123.368,80718,608,355,0,OTHER,458.5,2,4,/coffeepin.svg
+20,Union Pacific Coffee,48.4301,-123.368,94229,623,358,0,OTHER,518.7,2,5,/coffeepin.svg
+43,Wind Cries Mary,48.4257,-123.369,84175,602,348,0,OTHER,51.7,2,5,/coffeepin.svg
+31,Xing Fu Tang,48.4243,-123.367,88190,693,357,0,OTHER,243.0,2,2,/coffeepin.svg
+9,Discovery Coffee,48.432,-123.365,88677,672,345,1,Discovery Coffee,794.2,3,2,/coffeepin.svg
+29,Discovery Coffee,48.4236,-123.362,83829,611,340,1,Discovery Coffee,608.6,2,1,/coffeepin.svg
+4,Habit Coffee,48.4262,-123.362,97748,678,342,1,Habit Coffee,572.1,2,3,/coffeepin.svg
+34,Habit Coffee,48.4286,-123.368,92869,604,351,1,Habit Coffee,358.9,2,2,/coffeepin.svg
+16,Macchiato Caffe,48.4271,-123.362,91652,621,360,1,Macchiato Caffe,592.7,2,1,/coffeepin.svg
+17,Macchiato Caffe,48.4243,-123.367,92189,688,353,1,Macchiato Caffe,243.0,2,3,/coffeepin.svg
+44,Saint Cecelia,48.4267,-123.369,80333,665,343,1,Saint Cecelia,135.1,2,2,/coffeepin.svg
+45,Saint Cecelia,48.4266,-123.369,82843,691,352,1,Saint Cecelia,124.8,2,4,/coffeepin.svg
+23,Starbucks,48.421,-123.371,99611,618,341,1,Starbucks,517.6,3,2,/starbucks.svg
+3,Starbucks,48.4157,-123.375,96676,684,340,1,Starbucks,1166.3,5,4,/starbucks.svg
+11,Starbucks,48.4267,-123.367,85797,628,359,1,Starbucks,234.2,2,5,/starbucks.svg
+12,Starbucks,48.4292,-123.367,84646,604,360,1,Starbucks,449.4,2,4,/starbucks.svg
+33,Starbucks,48.4233,-123.369,90489,648,357,1,Starbucks,257.3,2,1,/starbucks.svg
+14,Tim Hortons,48.4273,-123.362,89135,700,347,1,Tim Hortons,599.4,2,4,/timhortons.svg
+36,Tim Hortons,48.4246,-123.364,84752,667,340,1,Tim Hortons,433.4,2,5,/timhortons.svg

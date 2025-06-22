@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "points-within-5mins-only",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4267" } },
+"features": [
+{ "type": "Feature", "properties": { "ID": 3, "NAME": "Starbucks", "LATITUDE": 48.4157, "LONGITUDE": -123.375, "PIN": "/coffeepin.svg", "REVENUE": 95458, "CUSTOMERS": 653, "DONUTS_SOLD": 341, "DRIVETIME": 5, "HUBNAME": "VERTIGIS - NA OFFICE", "DISTANCE": 1166.28049868327 }, "geometry": { "type": "Point", "coordinates": [ -123.375, 48.4157 ] } },
+{ "type": "Feature", "properties": { "ID": 5, "NAME": "Colonial Cafe", "LATITUDE": 48.4154, "LONGITUDE": -123.369, "PIN": "/coffeepin.svg", "REVENUE": 99236, "CUSTOMERS": 623, "DONUTS_SOLD": 355, "DRIVETIME": 5, "HUBNAME": "VERTIGIS - NA OFFICE", "DISTANCE": 1132.0079780488829 }, "geometry": { "type": "Point", "coordinates": [ -123.369, 48.4154 ] } },
+{ "type": "Feature", "properties": { "ID": 27, "NAME": "Nourish Kitchen & Cafe", "LATITUDE": 48.4217, "LONGITUDE": -123.377, "PIN": "/coffeepin.svg", "REVENUE": 86464, "CUSTOMERS": 669, "DONUTS_SOLD": 360, "DRIVETIME": 5, "HUBNAME": "VERTIGIS - NA OFFICE", "DISTANCE": 692.4279551218043 }, "geometry": { "type": "Point", "coordinates": [ -123.377, 48.4217 ] } },
+{ "type": "Feature", "properties": { "ID": 40, "NAME": "Courtyard Café", "LATITUDE": 48.4209, "LONGITUDE": -123.373, "PIN": "/coffeepin.svg", "REVENUE": 97928, "CUSTOMERS": 654, "DONUTS_SOLD": 341, "DRIVETIME": 5, "HUBNAME": "VERTIGIS - NA OFFICE", "DISTANCE": 574.80796641711129 }, "geometry": { "type": "Point", "coordinates": [ -123.373, 48.4209 ] } }
+]
+}

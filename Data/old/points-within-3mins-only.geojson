@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "points-within-3mins-only",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4267" } },
+"features": [
+{ "type": "Feature", "properties": { "ID": 1, "NAME": "Basic Cafe", "LATITUDE": 48.4253, "LONGITUDE": -123.357, "PIN": "/coffeepin.svg", "REVENUE": 92395, "CUSTOMERS": 678, "DONUTS_SOLD": 347, "DRIVETIME": 3, "HUBNAME": "VERTIGIS - NA OFFICE", "DISTANCE": 938.30333255010908 }, "geometry": { "type": "Point", "coordinates": [ -123.357, 48.4253 ] } },
+{ "type": "Feature", "properties": { "ID": 9, "NAME": "Discovery Coffee", "LATITUDE": 48.432, "LONGITUDE": -123.365, "PIN": "/coffeepin.svg", "REVENUE": 81763, "CUSTOMERS": 660, "DONUTS_SOLD": 358, "DRIVETIME": 3, "HUBNAME": "VERTIGIS - NA OFFICE", "DISTANCE": 794.16717232166752 }, "geometry": { "type": "Point", "coordinates": [ -123.365, 48.432 ] } },
+{ "type": "Feature", "properties": { "ID": 13, "NAME": "Cascadia", "LATITUDE": 48.4306, "LONGITUDE": -123.367, "PIN": "/starbucks.svg", "REVENUE": 89722, "CUSTOMERS": 683, "DONUTS_SOLD": 355, "DRIVETIME": 3, "HUBNAME": "VERTIGIS - NA OFFICE", "DISTANCE": 593.20854445064185 }, "geometry": { "type": "Point", "coordinates": [ -123.367, 48.4306 ] } },
+{ "type": "Feature", "properties": { "ID": 23, "NAME": "Starbucks", "LATITUDE": 48.421, "LONGITUDE": -123.371, "PIN": "/coffeepin.svg", "REVENUE": 80222, "CUSTOMERS": 646, "DONUTS_SOLD": 347, "DRIVETIME": 3, "HUBNAME": "VERTIGIS - NA OFFICE", "DISTANCE": 517.63604860240571 }, "geometry": { "type": "Point", "coordinates": [ -123.371, 48.421 ] } },
+{ "type": "Feature", "properties": { "ID": 41, "NAME": "Deer & Dough Bakery Cafe", "LATITUDE": 48.4295, "LONGITUDE": -123.364, "PIN": "/coffeepin.svg", "REVENUE": 95213, "CUSTOMERS": 656, "DONUTS_SOLD": 343, "DRIVETIME": 3, "HUBNAME": "VERTIGIS - NA OFFICE", "DISTANCE": 605.90135706495255 }, "geometry": { "type": "Point", "coordinates": [ -123.364, 48.4295 ] } },
+{ "type": "Feature", "properties": { "ID": 42, "NAME": "Picnic Too", "LATITUDE": 48.4235, "LONGITUDE": -123.356, "PIN": "/coffeepin.svg", "REVENUE": 94461, "CUSTOMERS": 635, "DONUTS_SOLD": 354, "DRIVETIME": 3, "HUBNAME": "VERTIGIS - NA OFFICE", "DISTANCE": 1037.7095775228095 }, "geometry": { "type": "Point", "coordinates": [ -123.356, 48.4235 ] } }
+]
+}
