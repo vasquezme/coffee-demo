@@ -21,6 +21,7 @@ with open("data/vertigis-office.geojson") as f:
 
 
 app = dash.Dash(__name__)
+server = app.server
 
 fig = go.Figure()
 
