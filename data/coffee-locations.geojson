@@ -1,0 +1,1063 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.357,
+          48.4253
+        ]
+      },
+      "properties": {
+        "ID": "1",
+        "NAME": "Basic Cafe",
+        "REVENUE": "83129",
+        "CUSTOMERS": "636",
+        "DONUTS_SOLD": "349",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "938.3",
+        "DRIVE_TIME(MINS)": "3",
+        "RATING": "1",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.366,
+          48.4266
+        ]
+      },
+      "properties": {
+        "ID": "2",
+        "NAME": "Serious Coffee",
+        "REVENUE": "85070",
+        "CUSTOMERS": "605",
+        "DONUTS_SOLD": "357",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "294.9",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "3",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.375,
+          48.4157
+        ]
+      },
+      "properties": {
+        "ID": "3",
+        "NAME": "Starbucks",
+        "REVENUE": "106676",
+        "CUSTOMERS": "984",
+        "DONUTS_SOLD": "340",
+        "CHAIN": "1",
+        "CHAIN_NAME": "Starbucks",
+        "DISTANCE(M)": "1166.3",
+        "DRIVE_TIME(MINS)": "5",
+        "RATING": "4",
+        "PIN": "/starbucks.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.362,
+          48.4262
+        ]
+      },
+      "properties": {
+        "ID": "4",
+        "NAME": "Habit Coffee",
+        "REVENUE": "97748",
+        "CUSTOMERS": "678",
+        "DONUTS_SOLD": "342",
+        "CHAIN": "1",
+        "CHAIN_NAME": "Habit Coffee",
+        "DISTANCE(M)": "572.1",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "3",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.369,
+          48.4154
+        ]
+      },
+      "properties": {
+        "ID": "5",
+        "NAME": "Colonial Cafe",
+        "REVENUE": "99258",
+        "CUSTOMERS": "659",
+        "DONUTS_SOLD": "341",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "1132.0",
+        "DRIVE_TIME(MINS)": "5",
+        "RATING": "2",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.365,
+          48.4258
+        ]
+      },
+      "properties": {
+        "ID": "6",
+        "NAME": "Cat's Coffee & Cake",
+        "REVENUE": "88453",
+        "CUSTOMERS": "619",
+        "DONUTS_SOLD": "360",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "346.7",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "3",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.364,
+          48.4255
+        ]
+      },
+      "properties": {
+        "ID": "7",
+        "NAME": "Soupa Cafe",
+        "REVENUE": "83646",
+        "CUSTOMERS": "639",
+        "DONUTS_SOLD": "341",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "419.8",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "4",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.368,
+          48.4292
+        ]
+      },
+      "properties": {
+        "ID": "8",
+        "NAME": "Bean Around The World",
+        "REVENUE": "96352",
+        "CUSTOMERS": "637",
+        "DONUTS_SOLD": "355",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "422.1",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "3",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.365,
+          48.432
+        ]
+      },
+      "properties": {
+        "ID": "9",
+        "NAME": "Discovery Coffee",
+        "REVENUE": "88677",
+        "CUSTOMERS": "672",
+        "DONUTS_SOLD": "345",
+        "CHAIN": "1",
+        "CHAIN_NAME": "Discovery Coffee",
+        "DISTANCE(M)": "794.2",
+        "DRIVE_TIME(MINS)": "3",
+        "RATING": "2",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.368,
+          48.4253
+        ]
+      },
+      "properties": {
+        "ID": "10",
+        "NAME": "Murchie's",
+        "REVENUE": "93377",
+        "CUSTOMERS": "629",
+        "DONUTS_SOLD": "353",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "127.3",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "5",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.367,
+          48.4267
+        ]
+      },
+      "properties": {
+        "ID": "11",
+        "NAME": "Starbucks",
+        "REVENUE": "105797",
+        "CUSTOMERS": "828",
+        "DONUTS_SOLD": "359",
+        "CHAIN": "1",
+        "CHAIN_NAME": "Starbucks",
+        "DISTANCE(M)": "234.2",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "5",
+        "PIN": "/starbucks.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.367,
+          48.4292
+        ]
+      },
+      "properties": {
+        "ID": "12",
+        "NAME": "Starbucks",
+        "REVENUE": "104646",
+        "CUSTOMERS": "804",
+        "DONUTS_SOLD": "360",
+        "CHAIN": "1",
+        "CHAIN_NAME": "Starbucks",
+        "DISTANCE(M)": "449.4",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "4",
+        "PIN": "/starbucks.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.367,
+          48.4306
+        ]
+      },
+      "properties": {
+        "ID": "13",
+        "NAME": "Cascadia",
+        "REVENUE": "85884",
+        "CUSTOMERS": "656",
+        "DONUTS_SOLD": "359",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "593.2",
+        "DRIVE_TIME(MINS)": "3",
+        "RATING": "4",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.362,
+          48.4273
+        ]
+      },
+      "properties": {
+        "ID": "14",
+        "NAME": "Tim Hortons",
+        "REVENUE": "101135",
+        "CUSTOMERS": "857",
+        "DONUTS_SOLD": "347",
+        "CHAIN": "1",
+        "CHAIN_NAME": "Tim Hortons",
+        "DISTANCE(M)": "599.4",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "4",
+        "PIN": "/timhortons.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.367,
+          48.425
+        ]
+      },
+      "properties": {
+        "ID": "15",
+        "NAME": "Good Earth",
+        "REVENUE": "84296",
+        "CUSTOMERS": "626",
+        "DONUTS_SOLD": "348",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "207.6",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "5",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.362,
+          48.4271
+        ]
+      },
+      "properties": {
+        "ID": "16",
+        "NAME": "Macchiato Caffe",
+        "REVENUE": "91652",
+        "CUSTOMERS": "621",
+        "DONUTS_SOLD": "360",
+        "CHAIN": "1",
+        "CHAIN_NAME": "Macchiato Caffe",
+        "DISTANCE(M)": "592.7",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "1",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.367,
+          48.4243
+        ]
+      },
+      "properties": {
+        "ID": "17",
+        "NAME": "Macchiato Caffe",
+        "REVENUE": "92189",
+        "CUSTOMERS": "688",
+        "DONUTS_SOLD": "353",
+        "CHAIN": "1",
+        "CHAIN_NAME": "Macchiato Caffe",
+        "DISTANCE(M)": "243.0",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "3",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.368,
+          48.4234
+        ]
+      },
+      "properties": {
+        "ID": "18",
+        "NAME": "Milano",
+        "REVENUE": "71608",
+        "CUSTOMERS": "690",
+        "DONUTS_SOLD": "349",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "271.2",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "1",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.365,
+          48.424
+        ]
+      },
+      "properties": {
+        "ID": "19",
+        "NAME": "Blenz Coffee",
+        "REVENUE": "82296",
+        "CUSTOMERS": "646",
+        "DONUTS_SOLD": "357",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "387.3",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "3",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.368,
+          48.4301
+        ]
+      },
+      "properties": {
+        "ID": "20",
+        "NAME": "Union Pacific Coffee",
+        "REVENUE": "94229",
+        "CUSTOMERS": "623",
+        "DONUTS_SOLD": "358",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "518.7",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "5",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.368,
+          48.4286
+        ]
+      },
+      "properties": {
+        "ID": "21",
+        "NAME": "Just Matcha",
+        "REVENUE": "92219",
+        "CUSTOMERS": "612",
+        "DONUTS_SOLD": "350",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "358.9",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "1",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.367,
+          48.4295
+        ]
+      },
+      "properties": {
+        "ID": "22",
+        "NAME": "QV Cafe",
+        "REVENUE": "95688",
+        "CUSTOMERS": "641",
+        "DONUTS_SOLD": "349",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "479.6",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "1",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.371,
+          48.421
+        ]
+      },
+      "properties": {
+        "ID": "23",
+        "NAME": "Starbucks",
+        "REVENUE": "109611",
+        "CUSTOMERS": "818",
+        "DONUTS_SOLD": "341",
+        "CHAIN": "1",
+        "CHAIN_NAME": "Starbucks",
+        "DISTANCE(M)": "517.6",
+        "DRIVE_TIME(MINS)": "3",
+        "RATING": "2",
+        "PIN": "/starbucks.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.368,
+          48.4284
+        ]
+      },
+      "properties": {
+        "ID": "24",
+        "NAME": "Shanzee's Biscuit Caf\u00c3\u00a9",
+        "REVENUE": "84369",
+        "CUSTOMERS": "685",
+        "DONUTS_SOLD": "357",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "338.1",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "2",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.368,
+          48.4216
+        ]
+      },
+      "properties": {
+        "ID": "25",
+        "NAME": "Tea at the Empress",
+        "REVENUE": "70718",
+        "CUSTOMERS": "608",
+        "DONUTS_SOLD": "355",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "458.5",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "4",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.366,
+          48.4208
+        ]
+      },
+      "properties": {
+        "ID": "26",
+        "NAME": "Capital City Caf\u00c3\u00a9",
+        "REVENUE": "99936",
+        "CUSTOMERS": "650",
+        "DONUTS_SOLD": "357",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "596.0",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "4",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.377,
+          48.4217
+        ]
+      },
+      "properties": {
+        "ID": "27",
+        "NAME": "Nourish Kitchen & Cafe",
+        "REVENUE": "71783",
+        "CUSTOMERS": "645",
+        "DONUTS_SOLD": "344",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "692.4",
+        "DRIVE_TIME(MINS)": "5",
+        "RATING": "3",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.359,
+          48.4236
+        ]
+      },
+      "properties": {
+        "ID": "28",
+        "NAME": "Blue Fox Cafe",
+        "REVENUE": "98319",
+        "CUSTOMERS": "643",
+        "DONUTS_SOLD": "354",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "819.6",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "2",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.362,
+          48.4236
+        ]
+      },
+      "properties": {
+        "ID": "29",
+        "NAME": "Discovery Coffee",
+        "REVENUE": "83829",
+        "CUSTOMERS": "611",
+        "DONUTS_SOLD": "340",
+        "CHAIN": "1",
+        "CHAIN_NAME": "Discovery Coffee",
+        "DISTANCE(M)": "608.6",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "1",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.364,
+          48.4254
+        ]
+      },
+      "properties": {
+        "ID": "30",
+        "NAME": "Empire Donuts",
+        "REVENUE": "83905",
+        "CUSTOMERS": "669",
+        "DONUTS_SOLD": "344",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "420.2",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "5",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.367,
+          48.4243
+        ]
+      },
+      "properties": {
+        "ID": "31",
+        "NAME": "Xing Fu Tang",
+        "REVENUE": "88190",
+        "CUSTOMERS": "693",
+        "DONUTS_SOLD": "357",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "243.0",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "2",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.367,
+          48.4239
+        ]
+      },
+      "properties": {
+        "ID": "32",
+        "NAME": "Sounds Like Coffee",
+        "REVENUE": "71704",
+        "CUSTOMERS": "648",
+        "DONUTS_SOLD": "351",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "271.3",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "4",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.369,
+          48.4233
+        ]
+      },
+      "properties": {
+        "ID": "33",
+        "NAME": "Starbucks",
+        "REVENUE": "100489",
+        "CUSTOMERS": "848",
+        "DONUTS_SOLD": "357",
+        "CHAIN": "1",
+        "CHAIN_NAME": "Starbucks",
+        "DISTANCE(M)": "257.3",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "1",
+        "PIN": "/starbucks.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.368,
+          48.4286
+        ]
+      },
+      "properties": {
+        "ID": "34",
+        "NAME": "Habit Coffee",
+        "REVENUE": "92869",
+        "CUSTOMERS": "604",
+        "DONUTS_SOLD": "351",
+        "CHAIN": "1",
+        "CHAIN_NAME": "Habit Coffee",
+        "DISTANCE(M)": "358.9",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "2",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.369,
+          48.4278
+        ]
+      },
+      "properties": {
+        "ID": "35",
+        "NAME": "Hey Happy",
+        "REVENUE": "93104",
+        "CUSTOMERS": "691",
+        "DONUTS_SOLD": "341",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "252.9",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "1",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.364,
+          48.4246
+        ]
+      },
+      "properties": {
+        "ID": "36",
+        "NAME": "Tim Hortons",
+        "REVENUE": "104752",
+        "CUSTOMERS": "867",
+        "DONUTS_SOLD": "340",
+        "CHAIN": "1",
+        "CHAIN_NAME": "Tim Hortons",
+        "DISTANCE(M)": "433.4",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "5",
+        "PIN": "/timhortons.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.365,
+          48.4236
+        ]
+      },
+      "properties": {
+        "ID": "37",
+        "NAME": "Bean Bandits Coffee",
+        "REVENUE": "99663",
+        "CUSTOMERS": "622",
+        "DONUTS_SOLD": "356",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "409.3",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "2",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.364,
+          48.427
+        ]
+      },
+      "properties": {
+        "ID": "38",
+        "NAME": "Board with Friends Cafe",
+        "REVENUE": "83664",
+        "CUSTOMERS": "647",
+        "DONUTS_SOLD": "353",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "448.8",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "2",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.366,
+          48.4246
+        ]
+      },
+      "properties": {
+        "ID": "39",
+        "NAME": "Flourish BeauTea",
+        "REVENUE": "96571",
+        "CUSTOMERS": "659",
+        "DONUTS_SOLD": "343",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "292.4",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "5",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.373,
+          48.4209
+        ]
+      },
+      "properties": {
+        "ID": "40",
+        "NAME": "Courtyard Caf\u00c3\u00a9",
+        "REVENUE": "87272",
+        "CUSTOMERS": "673",
+        "DONUTS_SOLD": "340",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "574.8",
+        "DRIVE_TIME(MINS)": "5",
+        "RATING": "1",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.364,
+          48.4295
+        ]
+      },
+      "properties": {
+        "ID": "41",
+        "NAME": "Deer & Dough Bakery Cafe",
+        "REVENUE": "88412",
+        "CUSTOMERS": "679",
+        "DONUTS_SOLD": "359",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "605.9",
+        "DRIVE_TIME(MINS)": "3",
+        "RATING": "5",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.356,
+          48.4235
+        ]
+      },
+      "properties": {
+        "ID": "42",
+        "NAME": "Picnic Too",
+        "REVENUE": "95064",
+        "CUSTOMERS": "699",
+        "DONUTS_SOLD": "356",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "1037.7",
+        "DRIVE_TIME(MINS)": "3",
+        "RATING": "4",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.369,
+          48.4257
+        ]
+      },
+      "properties": {
+        "ID": "43",
+        "NAME": "Wind Cries Mary",
+        "REVENUE": "84175",
+        "CUSTOMERS": "602",
+        "DONUTS_SOLD": "348",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "51.7",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "5",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.369,
+          48.4267
+        ]
+      },
+      "properties": {
+        "ID": "44",
+        "NAME": "Saint Cecelia",
+        "REVENUE": "70333",
+        "CUSTOMERS": "665",
+        "DONUTS_SOLD": "343",
+        "CHAIN": "1",
+        "CHAIN_NAME": "Saint Cecelia",
+        "DISTANCE(M)": "135.1",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "2",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.369,
+          48.4266
+        ]
+      },
+      "properties": {
+        "ID": "45",
+        "NAME": "Saint Cecelia",
+        "REVENUE": "82843",
+        "CUSTOMERS": "691",
+        "DONUTS_SOLD": "352",
+        "CHAIN": "1",
+        "CHAIN_NAME": "Saint Cecelia",
+        "DISTANCE(M)": "124.8",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "4",
+        "PIN": "/coffeepin.svg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.364,
+          48.426
+        ]
+      },
+      "properties": {
+        "ID": "46",
+        "NAME": "Interactivity Board Game Cafe",
+        "REVENUE": "88211",
+        "CUSTOMERS": "613",
+        "DONUTS_SOLD": "353",
+        "CHAIN": "0",
+        "CHAIN_NAME": "OTHER",
+        "DISTANCE(M)": "422.4",
+        "DRIVE_TIME(MINS)": "2",
+        "RATING": "2",
+        "PIN": "/coffeepin.svg"
+      }
+    }
+  ]
+}
