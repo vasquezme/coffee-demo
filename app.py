@@ -150,9 +150,9 @@ app.layout = html.Div([
         id='drive-time-dropdown',
         options=[
             {'label': 'ALL', 'value': 'all'},
-            {'label': '2 min', 'value': '2'},
-            {'label': '3 min', 'value': '3'},
-            {'label': '5 min', 'value': '5'}
+            {'label': 'UNDER 2 MINS', 'value': '2'},
+            {'label': 'UNDER 3 MINS', 'value': '3'},
+            {'label': 'UNDER 5 MINS', 'value': '5'}
     ],
     value='all',  # default value
     clearable=False,
