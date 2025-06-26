@@ -170,7 +170,7 @@ app.layout = html.Div([
             'color': '#333'
         }
     ),
-    html.P("This map shows coffee shops found within 2, 3, and 5 min Drive Times from the VertiGIS office in Victoria, BC."),
+    html.P(""),
     dcc.Dropdown(
         id='drive-time-dropdown',
         options=[
