@@ -159,7 +159,7 @@ def create_map(selected_drive_time):
 
 app.layout = html.Div([
     html.H1(
-        "Coffee Shops Close to the VertiGIS Office (2, 3, 5 min. Drive Time) ",
+        "Coffee Shops Close to the VertiGIS Office (2, 3, 5 min. Drive Times) ",
         style={
             'textAlign': 'center',
             'marginTop': '20px',
