@@ -19,6 +19,17 @@ locations_df = pd.json_normalize(locations["features"])
 with open("data/vertigis-office.geojson") as f:
     office = json.load(f)
 
+# Convert columns to numeric, coercing errors to NaN
+for col in [
+    'properties.REVENUE',
+    'properties.DISTANCE(M)',
+    'properties.CUSTOMERS',
+    'properties.DONUTS_SOLD',
+    'properties.RATING'
+]:
+    locations_df[col] = pd.to_numeric(locations_df[col], errors='coerce')
+
+
 app = dash.Dash(__name__)
 server = app.server
 
@@ -29,20 +40,20 @@ def create_map(selected_drive_time):
     if selected_drive_time == '2':
         polygon_coords = min2polygon["features"][0]["geometry"]["coordinates"][0]
         lons, lats = zip(*polygon_coords)
-        fig.add_trace(go.Scattermap(lon=lons, lat=lats, mode='lines', fill='toself', fillcolor='lightblue', line=dict(width=2, color='lightblue'), name='2min Polygon'))
+        fig.add_trace(go.Scattermap(lon=lons, lat=lats, mode='lines', fill='toself', fillcolor='rgba(173, 216, 230, 0.7)', line=dict(width=2, color='blue'), name='2min Polygon'))
     elif selected_drive_time == '3':
         polygon_coords = min3polygon["features"][0]["geometry"]["coordinates"][0]
         lons, lats = zip(*polygon_coords)
-        fig.add_trace(go.Scattermap(lon=lons, lat=lats, mode='lines', fill='toself', fillcolor='orange', line=dict(width=2, color='orange'), name='3min Polygon'))
+        fig.add_trace(go.Scattermap(lon=lons, lat=lats, mode='lines', fill='toself', fillcolor='rgba(255, 204, 203, 0.7)', line=dict(width=2, color='red'), name='3min Polygon'))
     elif selected_drive_time == '5':
         polygon_coords = min5polygon["features"][0]["geometry"]["coordinates"][0]
         lons, lats = zip(*polygon_coords)
-        fig.add_trace(go.Scattermap(lon=lons, lat=lats, mode='lines', fill='toself', fillcolor='red', line=dict(width=2, color='red'), name='5min Polygon'))
+        fig.add_trace(go.Scattermap(lon=lons, lat=lats, mode='lines', fill='toself', fillcolor='rgba(255, 165, 0, 0.3)', line=dict(width=2, color='orange'), name='5min Polygon'))
     elif selected_drive_time == 'all':
-        for mins, poly, color, legend in [
-            ('2', min2polygon, 'blue', '2min Polygon'),
-            ('3', min3polygon, 'orange', '3min Polygon'),
-            ('5', min5polygon, 'red', '5min Polygon')
+        for mins, poly, fillcolor, linecolor, legend in [
+            ('2', min2polygon, 'rgba(173, 216, 230, 0.3)', 'blue', '2 min Drive Time'), 
+            ('3', min3polygon, 'rgba(255, 204, 203, 0.3)', 'red', '3 min Drive Time'),
+            ('5', min5polygon, 'rgba(255, 165, 0, 0.3)', 'orange', '5 min Drive Time') 
         ]:
             polygon_coords = poly["features"][0]["geometry"]["coordinates"][0]
             lons, lats = zip(*polygon_coords)
@@ -51,8 +62,8 @@ def create_map(selected_drive_time):
                 lat=lats,
                 mode='lines',
                 fill='toself',
-                fillcolor=f'rgba(0,0,0,0)',
-                line=dict(width=2, color=color),
+                fillcolor=fillcolor,
+                line=dict(width=2, color=linecolor),
                 name=legend
             ))
 
@@ -60,17 +71,28 @@ def create_map(selected_drive_time):
     # Extract all coffee location points
     lons_loc = []
     lats_loc = []
+    hover_texts = []
     for feature in locations["features"]:
         coords = feature["geometry"]["coordinates"]
         lons_loc.append(coords[0])
         lats_loc.append(coords[1])
+        props = feature["properties"]
+        hover_texts.append(
+            f"Name: {props.get('NAME', 'N/A')}<br>"
+            f"Chain: {props.get('CHAIN_NAME', 'N/A')}<br>"
+            f"Revenue: ${props.get('REVENUE', 'N/A')}<br>"
+            f"Rating: {props.get('RATING', 'N/A')}"
+        )
+    
     fig.add_trace(
         go.Scattermap(
             lon=lons_loc,
             lat=lats_loc,
             mode='markers',
             marker=dict(size=10, color='black'),
-            name='Coffee Locations'
+            name='Coffee Locations',
+            text=hover_texts,
+            hoverinfo='text'
         )
     )
 
@@ -82,13 +104,16 @@ def create_map(selected_drive_time):
         coords = feature["geometry"]["coordinates"]
         lons_loc.append(coords[0])
         lats_loc.append(coords[1])
+
     fig.add_trace(
         go.Scattermap(
             lon=lons_loc,
             lat=lats_loc,
             mode='markers',
-            marker=dict(size=10, color='green'),
-            name='VertiGIS Office'
+            marker=dict(size=15, color='green'),
+            name='VertiGIS Office',
+            text='VERTIGIS Office',
+            hoverinfo='text'
         )
     )
 
@@ -134,7 +159,7 @@ def create_map(selected_drive_time):
 
 app.layout = html.Div([
     html.H1(
-        "Coffee Shops Close to the VertiGIS NA Office (2, 3, 5 min. Drive Time) ",
+        "Coffee Shops Close to the VertiGIS Office (2, 3, 5 min. Drive Time) ",
         style={
             'textAlign': 'center',
             'marginTop': '20px',
@@ -221,7 +246,7 @@ def update_dashboard(selected_drive_time):
     if selected_drive_time == 'all':
         filtered_df = locations_df
     else:
-        filtered_df = locations_df[locations_df['properties.DRIVE_TIME(MINS)'] == int(selected_drive_time)] 
+        filtered_df = locations_df[locations_df['properties.DRIVE_TIME(MINS)'].astype(str) == selected_drive_time] 
                                                                                       
     # Scorecard calculations
     total_locations = filtered_df.shape[0]
