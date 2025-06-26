@@ -541,7 +541,7 @@
       },
       "properties": {
         "ID": "24",
-        "NAME": "Shanzee's Biscuit Caf\u00c3\u00a9",
+        "NAME": "Shanzee's Biscuit Cafe",
         "REVENUE": "84369",
         "CUSTOMERS": "685",
         "DONUTS_SOLD": "357",
@@ -587,7 +587,7 @@
       },
       "properties": {
         "ID": "26",
-        "NAME": "Capital City Caf\u00c3\u00a9",
+        "NAME": "Capital City Cafe",
         "REVENUE": "99936",
         "CUSTOMERS": "650",
         "DONUTS_SOLD": "357",
@@ -909,7 +909,7 @@
       },
       "properties": {
         "ID": "40",
-        "NAME": "Courtyard Caf\u00c3\u00a9",
+        "NAME": "Courtyard Cafe",
         "REVENUE": "87272",
         "CUSTOMERS": "673",
         "DONUTS_SOLD": "340",
