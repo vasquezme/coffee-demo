@@ -52,3 +52,9 @@ Figure Creation -	Build bar, pie, scatter charts<br>
 Dash Callback -	Update figures/scorecards on filter change<br>
 Figure Order -	Ensure callback return order matches layout<br>
 App Run Block -	Start the Dash server<br>
+
+
+<!-- This is a hidden comment in the README
+- clean up readme
+- make summary section into table
+-->
