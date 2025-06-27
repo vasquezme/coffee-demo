@@ -3,21 +3,21 @@
 https://coffee-demo.onrender.com/
 
 
-1. Data Import & Preparation
-Loading GeoJSON and other data files (coffee locations, polygons, office).
-Flattening GeoJSON with pd.json_normalize.
-Converting columns to numeric for calculations and plotting.
+## 1. Data Import & Preparation<br>
+Loading GeoJSON and other data files (coffee locations, polygons, office).<br> 
+Flattening GeoJSON with pd.json_normalize.<br>
+Converting columns to numeric for calculations and plotting.<br>
 
-3. Coordinate Extraction
-Extracting coordinates from GeoJSON features for both polygons (drive time areas) and point locations (coffee shops, office).
-Used for plotting polygons and markers on the map.
+## 2. Coordinate Extraction<br>
+Extracting coordinates from GeoJSON features for both polygons (drive time areas) and point locations (coffee shops, office).<br>
+Used for plotting polygons and markers on the map.<br>
 
-5. Map Definition
-Defining the map figure using Plotly Graph Objects (go.Figure).
-Adding polygons for drive time areas with different colors and opacities.
-Adding coffee shop and office markers with custom hover text.
+## 3. Map Definition<br>
+Defining the map figure using Plotly Graph Objects (go.Figure).<br>
+Adding polygons for drive time areas with different colors and opacities.<br>
+Adding coffee shop and office markers with custom hover text.<br>
 
-7. App Layout
+## 4. App Layout
 Dash layout with html.Div, dcc.Dropdown for filtering, scorecard section, and multiple dcc.Graph components for map and charts.
 Scorecard section for key metrics (shops, revenue, customers, etc.).
 
