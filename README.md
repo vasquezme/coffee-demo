@@ -42,6 +42,7 @@ The if __name__ == "__main__": block to run the Dash app.<br>
 
 ## Summary Table:<br>
 
+|--|--|
 Section	- Purpose<br>
 Data Import - Load and prepare data<br>
 Coordinate Extraction - Get lats/lons for polygons and points<br>
