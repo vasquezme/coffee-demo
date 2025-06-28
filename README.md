@@ -59,16 +59,18 @@ The if __name__ == "__main__": block to run the Dash app.<br>
 
 ## Summary Table:<br>
 
-Section	- Purpose<br>
-Data Import - Load and prepare data<br>
-Coordinate Extraction - Get lats/lons for polygons and points<br>
-Map Definition -	Build map with polygons and markers<br>
-App Layout -	Arrange UI, dropdown, scorecards, and graphs<br>
-Scorecard Calculations -	Compute metrics for display<br>
-Figure Creation -	Build bar, pie, scatter charts<br>
-Dash Callback -	Update figures/scorecards on filter change<br>
-Figure Order -	Ensure callback return order matches layout<br>
-App Run Block -	Start the Dash server<br>
+
+| Section	| Purpose |
+|-------- | ------- |
+| Data Import | Load and prepare data
+| Coordinate Extraction | Get lats/lons for polygons and points
+| Map Definition |	Build map with polygons and markers
+| App Layout | Arrange UI, dropdown, scorecards, and graphs
+| Scorecard Calculations |	Compute metrics for display
+| Figure Creation | Build bar, pie, scatter charts
+| Dash Callback | Update figures/scorecards on filter change
+| Figure Order |	Ensure callback return order matches layout
+| App Run Block | Start the Dash server
 
 
 <!-- This is a hidden comment in the README
