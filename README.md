@@ -59,6 +59,7 @@ The if __name__ == "__main__": block to run the Dash app.<br>
 
 ## Summary Table:<br>
 
+<center>
 
 | Section	| Purpose |
 |-------- | ------- |
@@ -72,6 +73,7 @@ The if __name__ == "__main__": block to run the Dash app.<br>
 | Figure Order |	Ensure callback return order matches layout
 | App Run Block | Start the Dash server
 
+</center>
 
 <!-- This is a hidden comment in the README
 - clean up readme
